@@ -4,104 +4,28 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>รายชื่อนักศึกษา</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      font-family: 'Sarabun', sans-serif;
-      background: #f0f4f8;
-      padding: 40px 20px;
-    }
-
-    .container {
-      max-width: 700px;
-      margin: 0 auto;
-      background: #fff;
-      border-radius: 12px;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.1);
-      overflow: hidden;
-    }
-
-    .header {
-      background: #1a56db;
-      color: #fff;
-      padding: 24px 32px;
-    }
-
-    .header h1 {
-      font-size: 1.4rem;
-      font-weight: 600;
-    }
-
-    .header p {
-      font-size: 0.9rem;
-      opacity: 0.8;
-      margin-top: 4px;
-    }
-
-    ol {
-      list-style: none;
-      padding: 16px 32px 32px;
-      counter-reset: student-counter;
-    }
-
-    ol li {
-      counter-increment: student-counter;
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      padding: 14px 0;
-      border-bottom: 1px solid #e5e7eb;
-      font-size: 1rem;
-      color: #374151;
-    }
-
-    ol li:last-child {
-      border-bottom: none;
-    }
-
-    ol li::before {
-      content: counter(student-counter) ".";
-      min-width: 28px;
-      font-weight: 700;
-      color: #1a56db;
-    }
-
-    .name {
-      flex: 1;
-    }
-
-    .student-id {
-      font-size: 0.85rem;
-      color: #6b7280;
-      background: #f3f4f6;
-      padding: 3px 10px;
-      border-radius: 20px;
-      white-space: nowrap;
-    }
-  </style>
+  
+  <!-- ลิงก์ฟอนต์ Sarabun -->
   <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <!-- ลิงก์ไฟล์ CSS ที่แยกออกมา -->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div class="container">
     <div class="header">
       <h1>รายชื่อนักศึกษา</h1>
-      <p>ภาคเรียนที่ 1 ปีการศึกษา 2567</p>
+      <p>ภาคเรียนที่ 1 ปีการศึกษา 2569</p>
     </div>
     <ol>
       <li>
-        <span class="name">นายกำธร สารวรรณ</span>
-        <span class="student-id">รหัส 6701234567</span>
+        <span class="name">นาย กฤตนัย ดอนแสง</span>
+        <span class="student-id">รหัส 671540005006-5</span>
       </li>
       <li>
         <span class="name">...........</span>
         <span class="student-id">............</span>
       </li>
-       
     </ol>
   </div>
 </body>
